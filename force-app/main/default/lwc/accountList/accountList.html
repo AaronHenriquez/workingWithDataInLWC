@@ -1,0 +1,17 @@
+<template>
+  <lightning-card>
+    <template if:true={accounts.data}>
+      <!--We define the lightning-datatable base component to use accounts.data
+        it behaves as a HTML table-->
+      <template if:true={errors}>
+        <p>{errors}</p>
+      </template>
+      <lightning-datatable
+        key-field="Id"
+        data={accounts.data}
+        columns={columns}
+      >
+      </lightning-datatable>
+    </template>
+  </lightning-card>
+</template>

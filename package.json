@@ -1,0 +1,15 @@
+{
+  "name": "workingwithdatainlwc",
+  "version": "1.0.0",
+  "description": "Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.4.1",
+    "prettier-plugin-apex": "1.10.0"
+  }
+}
